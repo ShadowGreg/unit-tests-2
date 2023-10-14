@@ -17,7 +17,7 @@ class VehicleTest {
 
    */
     @BeforeAll
-    public static void Car() {
+    public static void SetUp() {
         car = new Car("Dodge", "Ram", 2010);
         motorcycle = new Motorcycle("Иж", "Юпитер-5-03", 1991);
 
